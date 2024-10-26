@@ -23,6 +23,21 @@ namespace EyeLie.Controllers
             return View();
         }
 
+        public IActionResult Search()
+        {
+            return View();
+        }
+
+        public IActionResult Messages()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

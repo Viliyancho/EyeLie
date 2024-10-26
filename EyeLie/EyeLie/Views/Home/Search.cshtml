@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Search menu";
+}
+
+<div class="container mt-5">
+    <!-- Заглавие на страницата -->
+    <div class="text-center mb-4">
+        <h1 class="display-4 text-primary">Search</h1>
+        <p class="text-muted">Find people by name</p>
+    </div>
+
+    <!-- Форма за търсене -->
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="input-group mb-4">
+                <input type="text" class="form-control border-primary" placeholder="Enter user name" aria-label="User search" aria-describedby="search-button">
+                <button class="btn btn-primary" id="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Списък с резултати от търсенето -->
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <ul class="list-group" id="search-results">
+                <!-- Примерен резултат (ще бъде динамичен) -->
+                <li class="list-group-item border-0 d-flex align-items-center mb-2 bg-light">
+                    <div class="avatar me-3">
+                        <img src="https://via.placeholder.com/40" alt="User Avatar" class="rounded-circle">
+                    </div>
+                    <div>
+                        <h5 class="mb-1 text-dark">User Name</h5>
+                        <small class="text-muted">Location, Info, etc.</small>
+                    </div>
+                </li>
+                <!-- Добавете още резултати тук... -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 900px;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    #search-results {
+        max-height: 400px;
+        overflow-y: auto;
+        padding: 0;
+        border-radius: 5px;
+    }
+
+    .list-group-item {
+        transition: background-color 0.3s ease;
+    }
+
+        .list-group-item:hover {
+            background-color: #e0f0ff;
+        }
+
+    .avatar img {
+        width: 40px;
+        height: 40px;
+    }
+</style>
