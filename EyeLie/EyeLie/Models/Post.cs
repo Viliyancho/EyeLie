@@ -2,6 +2,11 @@
 {
     public class Post 
     {
+
+        public Post()
+        {
+            Comments = new List<Comment>();
+        }
         public int Id { get; set; } 
 
         public string Content { get; set; }
@@ -13,5 +18,7 @@
         public int UserId { get; set; }
 
         public virtual User UserUser { get; set; }
+
+        public ICollection<Comment> Comments { get; set; }
     }
 }
