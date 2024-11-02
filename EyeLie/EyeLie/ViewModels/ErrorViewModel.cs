@@ -1,4 +1,4 @@
-namespace EyeLie.Models
+namespace EyeLie.ViewModels
 {
     public class ErrorViewModel
     {
