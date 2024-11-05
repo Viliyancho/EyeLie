@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3G6Ycz+lIKgWY3x+8NMar+JD1DmcRpbrJ5zVCazqzzo=",
+  "Hash": "bGQCZXpXKIBp5mUGqqn27LJOHyvR90EMdzPkgpQBa/Y=",
   "Source": "EyeLie",
   "BasePath": "_content/EyeLie",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\wwwroot\\images\\cloud.png",
+      "SourceId": "EyeLie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\wwwroot\\",
+      "BasePath": "_content/EyeLie",
+      "RelativePath": "images/cloud.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cloud.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\wwwroot\\js\\site.js",

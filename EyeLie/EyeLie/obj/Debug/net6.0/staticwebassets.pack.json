@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\wwwroot\\images\\cloud.png",
+      "PackagePath": "staticwebassets\\images\\cloud.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
