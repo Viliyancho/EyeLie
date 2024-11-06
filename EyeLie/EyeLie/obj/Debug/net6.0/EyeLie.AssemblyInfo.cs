@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EyeLie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+832997b9bc38eb206ba901a45a1fb6f5f199840d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bb01a2f4cd360c5fc2b73ca73652e3a9d5a620d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EyeLie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EyeLie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
