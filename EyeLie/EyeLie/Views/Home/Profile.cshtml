@@ -1,9 +1,5 @@
 ﻿@page
-@model EyeLie.ViewModels.ProfileViewModel
 
-@{
-    ViewData["Title"] = "Profile";
-}
 
 <style>
     body {
@@ -31,7 +27,7 @@
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        border: 3px solid skyblue;
+        border: 2px solid gray;
         object-fit: cover;
     }
 
@@ -45,9 +41,9 @@
         transition: background-color 0.3s ease;
     }
 
-    .edit-button:hover {
-        background-color: #357ab7;
-    }
+        .edit-button:hover {
+            background-color: #357ab7;
+        }
 
     .bio-section {
         margin-top: 20px;
@@ -69,9 +65,9 @@
         transition: color 0.3s ease;
     }
 
-    .heart-button:hover {
-        color: #357ab7;
-    }
+        .heart-button:hover {
+            color: #357ab7;
+        }
 
     .posts-section {
         margin-top: 30px;
@@ -84,7 +80,7 @@
         padding: 10px;
         margin: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-        height: 200px; /* Фиксирана височина за всеки пост */
+        height: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -92,49 +88,51 @@
 </style>
 
 <div class="profile-container">
-    <h1 class="profile-header">@Model.User.UserName</h1>
+    <h1 class="profile-header">User Name</h1>
 
-    <!-- Профилна снимка и бутон за редакция, ако потребителят е собственик на профила -->
+    <!-- Профилна снимка и бутон за редакция -->
     <div class="text-center">
-        <img src="@Model.User.ProfilePictureUrl" alt="Profile Picture" class="profile-picture">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-picture">
 
-        @if (Model.IsOwner)
-        {
-            <button class="edit-button" onclick="document.getElementById('profilePictureInput').click();">
-                Редактиране на снимката
-            </button>
-            <input id="profilePictureInput" type="file" style="display: none;" />
-        }
+        <!-- Ако искаш да оставиш бутона за редактиране на снимката, но без проверка на IsOwner -->
+        <button class="edit-button" onclick="document.getElementById('profilePictureInput').click();">
+            Edit Profile Picture
+        </button>
+        <input id="profilePictureInput" type="file" style="display: none;" />
     </div>
 
-    <!-- Брой харесвания и бутон за харесване, ако потребителят е на чужд профил -->
+    <!-- Брой харесвания и бутон за харесване -->
     <div class="hearts-count">
-        Харесвания: <span>@Model.User.ProfileHeartsCount</span>
-        @if (!Model.IsOwner)
-        {
-            <button class="heart-button" onclick="likeProfile()">
-                <i class="fas fa-heart"></i>
-            </button>
-        }
+        Likes: <span>0</span>
+        <button class="heart-button" onclick="likeProfile()">
+            <i class="fas fa-heart"></i>
+        </button>
     </div>
 
     <!-- Секция с биография -->
     <div class="bio-section">
-        <p>@Model.User.Bio</p>
+        <p>This is a short bio about the user.</p>
     </div>
 
     <!-- Секция с постове -->
     <div class="posts-section">
-        <h2 class="text-center">Постове</h2>
+        <h2 class="text-center">Posts</h2>
         <div class="row">
-            @foreach (var post in Model.User.Posts)
-            {
-                <div class="col-md-4">
-                    <div class="post">
-                        <p>@post.Content</p> <!-- Предполага се, че има `Content` свойство за съдържание на поста -->
-                    </div>
+            <div class="col-md-4">
+                <div class="post">
+                    <p>No post.</p> <!-- Примерен текст за пост -->
                 </div>
-            }
+            </div>
+            <div class="col-md-4">
+                <div class="post">
+                    <p>No post.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="post">
+                    <p>No post.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -144,6 +142,6 @@
         function likeProfile() {
             // Изпращане на заявка за харесване на профила и увеличаване на броя харесвания
             // Реализацията на функцията зависи от бекенда (може да се използва AJAX или form submit)
-        }
+            }
     </script>
 }
