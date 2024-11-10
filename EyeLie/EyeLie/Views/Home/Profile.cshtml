@@ -1,0 +1,149 @@
+﻿@page
+@model EyeLie.ViewModels.ProfileViewModel
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<style>
+    body {
+        background-color: #f5f5f5; /* Smoke gray */
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+
+    .profile-container {
+        max-width: 800px;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.9); /* Бял полупрозрачен фон */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .profile-header {
+        color: skyblue;
+        margin-bottom: 1em;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid skyblue;
+        object-fit: cover;
+    }
+
+    .edit-button {
+        background-color: #4a90e2;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .edit-button:hover {
+        background-color: #357ab7;
+    }
+
+    .bio-section {
+        margin-top: 20px;
+        color: #666;
+    }
+
+    .hearts-count {
+        font-size: 18px;
+        color: skyblue;
+        margin-top: 10px;
+    }
+
+    .heart-button {
+        background: none;
+        border: none;
+        color: skyblue;
+        font-size: 24px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .heart-button:hover {
+        color: #357ab7;
+    }
+
+    .posts-section {
+        margin-top: 30px;
+    }
+
+    .post {
+        background-color: #f0f8ff;
+        border: 1px solid #b0c4de;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        height: 200px; /* Фиксирана височина за всеки пост */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<div class="profile-container">
+    <h1 class="profile-header">@Model.User.UserName</h1>
+
+    <!-- Профилна снимка и бутон за редакция, ако потребителят е собственик на профила -->
+    <div class="text-center">
+        <img src="@Model.User.ProfilePictureUrl" alt="Profile Picture" class="profile-picture">
+
+        @if (Model.IsOwner)
+        {
+            <button class="edit-button" onclick="document.getElementById('profilePictureInput').click();">
+                Редактиране на снимката
+            </button>
+            <input id="profilePictureInput" type="file" style="display: none;" />
+        }
+    </div>
+
+    <!-- Брой харесвания и бутон за харесване, ако потребителят е на чужд профил -->
+    <div class="hearts-count">
+        Харесвания: <span>@Model.User.ProfileHeartsCount</span>
+        @if (!Model.IsOwner)
+        {
+            <button class="heart-button" onclick="likeProfile()">
+                <i class="fas fa-heart"></i>
+            </button>
+        }
+    </div>
+
+    <!-- Секция с биография -->
+    <div class="bio-section">
+        <p>@Model.User.Bio</p>
+    </div>
+
+    <!-- Секция с постове -->
+    <div class="posts-section">
+        <h2 class="text-center">Постове</h2>
+        <div class="row">
+            @foreach (var post in Model.User.Posts)
+            {
+                <div class="col-md-4">
+                    <div class="post">
+                        <p>@post.Content</p> <!-- Предполага се, че има `Content` свойство за съдържание на поста -->
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function likeProfile() {
+            // Изпращане на заявка за харесване на профила и увеличаване на броя харесвания
+            // Реализацията на функцията зависи от бекенда (може да се използва AJAX или form submit)
+        }
+    </script>
+}

@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\data\\migrations\\20241106234038_addmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\data\\migrations\\20241106234038_addmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106233033_AddComents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,24 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "EyeLie\\Views\\Home\\Profile.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwIoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:32:32.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EyeLie\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EyeLie\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:30:50.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EyeLie\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EyeLie\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:29:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EyeLie\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EyeLie\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:05:55.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EyeLie\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T15:53:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "EyeLie\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "EyeLie\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:50:33.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EyeLie\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EyeLie\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T15:15:45.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Program.cs",
+              "RelativeDocumentMoniker": "EyeLie\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Program.cs",
+              "RelativeToolTip": "EyeLie\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:34:43.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20241106234038_AddMessages.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs",
               "RelativeDocumentMoniker": "EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs",
               "RelativeToolTip": "EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAADgv2UAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T23:40:38.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "20241106233033_AddComents.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106233033_AddComents.cs",
               "RelativeDocumentMoniker": "EyeLie\\Data\\Migrations\\20241106233033_AddComents.cs",
