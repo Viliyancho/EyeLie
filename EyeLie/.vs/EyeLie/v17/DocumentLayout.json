@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|c:\\users\\admin\\documents\\sites\\eyelie\\eyelie\\eyelie\\views\\home\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{015218FE-2F03-47D7-823D-C46BB588C6B9}|EyeLie\\EyeLie.csproj|solutionrelative:eyelie\\views\\home\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -75,6 +79,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "EyeLie\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "EyeLie\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T13:40:53.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Messages.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Messages.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Messages.cshtml",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Messages.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Messages.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Messages.cshtml",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Shared\\_LoginPartial.cshtml",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Privacy.cshtml",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Shared\\Error.cshtml",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Profile.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Profile.cshtml",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EyeLie\\Controllers\\HomeController.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "EyeLie\\Data\\ApplicationDbContext.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Shared\\_Layout.cshtml",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\Home\\Index.cshtml",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\ViewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "EyeLie\\ViewModels\\ProfileViewModel.cs",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "EyeLie\\Views\\_ViewStart.cshtml",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Program.cs",
               "RelativeDocumentMoniker": "EyeLie\\Program.cs",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20241106234038_AddMessages.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs",
               "RelativeDocumentMoniker": "EyeLie\\Data\\Migrations\\20241106234038_AddMessages.cs",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20241106233033_AddComents.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Sites\\EyeLie\\EyeLie\\EyeLie\\Data\\Migrations\\20241106233033_AddComents.cs",
               "RelativeDocumentMoniker": "EyeLie\\Data\\Migrations\\20241106233033_AddComents.cs",

@@ -116,6 +116,15 @@ namespace EyeLie.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
+
+                var user = await _signInManager.UserManager.FindByEmailAsync(Input.Email);
+
+                if (user == null || user.UserName != Input.Username)
+                {
+                    ModelState.AddModelError(string.Empty, "Invalid email, username, or password.");
+                    return Page();  
+                }
+
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
                 var result = await _signInManager.PasswordSignInAsync(Input.Username, Input.Password, Input.RememberMe, lockoutOnFailure: false);
