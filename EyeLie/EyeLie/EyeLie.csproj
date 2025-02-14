@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\Messages.cshtml" />
     <Content Remove="Views\Home\Search.cshtml" />
   </ItemGroup>
 
@@ -33,6 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Home\Messages.cshtml" />
     <None Include="Views\Home\Search.cshtml" />
   </ItemGroup>
 

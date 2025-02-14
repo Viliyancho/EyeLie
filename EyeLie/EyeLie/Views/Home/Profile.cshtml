@@ -1,9 +1,10 @@
-﻿@page
+﻿@model EyeLie.Models.User
+
 
 
 <style>
     body {
-        background-color: #f5f5f5; /* Smoke gray */
+        background-color: #f5f5f5; 
         color: #333;
         font-family: Arial, sans-serif;
     }
@@ -11,7 +12,7 @@
     .profile-container {
         max-width: 800px;
         margin: auto;
-        background-color: rgba(255, 255, 255, 0.9); /* Бял полупрозрачен фон */
+        background-color: rgba(255, 255, 255, 0.9); 
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -85,63 +86,92 @@
         align-items: center;
         justify-content: center;
     }
+
+        .post img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+    .post-content {
+        margin-top: 10px;
+    }
+
+    .post-date {
+        font-size: 12px;
+        color: #aaa;
+        margin-top: 5px;
+    }
 </style>
 
 <div class="profile-container">
-    <h1 class="profile-header">User Name</h1>
-
-    <!-- Профилна снимка и бутон за редакция -->
+    <h1 class="profile-header">@Model.UserName</h1>
+    <div><strong>@Model.Posts.Count</strong> posts</div>
+   
     <div class="text-center">
-        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-picture">
+        <img src="@Model.ProfilePictureUrl" alt="Profile Picture" class="profile-picture">
 
-        <!-- Ако искаш да оставиш бутона за редактиране на снимката, но без проверка на IsOwner -->
+       
         <button class="edit-button" onclick="document.getElementById('profilePictureInput').click();">
             Edit Profile Picture
         </button>
         <input id="profilePictureInput" type="file" style="display: none;" />
     </div>
 
-    <!-- Брой харесвания и бутон за харесване -->
     <div class="hearts-count">
-        Likes: <span>0</span>
+        Likes: <span>@Model.ProfileHeartsCount</span>
         <button class="heart-button" onclick="likeProfile()">
             <i class="fas fa-heart"></i>
         </button>
     </div>
 
-    <!-- Секция с биография -->
     <div class="bio-section">
-        <p>This is a short bio about the user.</p>
+        <p>@Model.Bio</p>
     </div>
 
-    <!-- Секция с постове -->
     <div class="posts-section">
         <h2 class="text-center">Posts</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="post">
-                    <p>No post.</p> <!-- Примерен текст за пост -->
+        @if (Model.Posts != null && Model.Posts.Count > 0)
+        {
+            <div class="row">
+                @foreach (var post in Model.Posts)
+                {
+                    <div class="col-md-4">
+                        <div class="post">
+                            <img src="@post.ImageUrl" alt="Post Image">
+                            <div class="post-content">@post.Content</div>
+                            <div class="post-date">Posted on: @post.CreatedAt.ToString("MMMM dd, yyyy")</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="post">
+                        <p>No post.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post">
+                        <p>No post.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post">
+                        <p>No post.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="post">
-                    <p>No post.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="post">
-                    <p>No post.</p>
-                </div>
-            </div>
-        </div>
+        }
     </div>
+
 </div>
 
 @section Scripts {
     <script>
         function likeProfile() {
-            // Изпращане на заявка за харесване на профила и увеличаване на броя харесвания
-            // Реализацията на функцията зависи от бекенда (може да се използва AJAX или form submit)
             }
     </script>
 }
